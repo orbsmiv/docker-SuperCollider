@@ -1,4 +1,7 @@
-### Experimental SuperCollider Docker build for Raspberry Pi
+### SuperCollider Docker build
+
+Docker Build command:
+`docker build -t orbsmiv/supercollider:version .`
 
 Docker run command:
 `docker run -it --rm --device /dev/snd -p 57150:57150/udp orbsmiv/supercollider-rpi`
