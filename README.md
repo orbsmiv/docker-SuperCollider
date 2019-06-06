@@ -12,7 +12,7 @@ Order in which to execute (wrap in entrypoint.sh):
 - scsynth
 - jack_connect
 
-Put all of the user-varoable params into Env vars which can be specified as part of the docker run command.
+Put all of the user-variable params into Env vars which can be specified as part of the docker run command.
 
 
 Jack command:
