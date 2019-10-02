@@ -80,7 +80,8 @@ RUN apk update && \
     jack \
     tini \
     fftw \
-    libsndfile
+    libsndfile \
+    eudev
 
 COPY --from=build /usr/local/include/SuperCollider /usr/local/include/SuperCollider
 COPY --from=build /usr/local/share/SuperCollider /usr/local/share/SuperCollider
